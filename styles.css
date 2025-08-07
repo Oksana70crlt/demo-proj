@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  color: #2e2f42;
+  line-height: 1.5;
+  background-color: white;
+}
+
+header {
+  padding: 20px 40px;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.logo span {
+  color: #4d5ae5;
+}
+
+.menu_nav {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.menu_nav a {
+  text-decoration: none;
+  color: #2e2f42;
+  font-weight: 500;
+}
+
+.contacts {
+  display: flex;
+  gap: 24px;
+  font-size: 14px;
+}
+
+.contacts a {
+  text-decoration: none;
+  color: #434455;
+}
+
+.hero {
+  background-color: #2e2f42;
+  color: #fff;
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero button {
+  background-color: #4d5ae5;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.services {
+  padding: 60px 40px;
+}
+
+
+.services ul {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.service{
+  width: calc(25% - 12px);    
+}
+
+.service h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.service p {
+  font-size: 14px;
+  color: #434455;
+}
+
+.work {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.work h2 {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.gallery {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.team {
+  padding: 60px 40px;
+  background-color: #f4f4fd;
+  text-align: center;
+}
+
+.team h2 {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.members {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.member {
+  padding: 20px;
+  width: calc(25% - 20px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.member img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.member h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.member p {
+  font-size: 14px;
+  color: #434455;
+}
+
+footer {
+  background-color: #2e2f42;
+  color: #e7e9fc;
+  text-align: left;
+  padding: 40px;
+}
+
+ul, address{
+    list-style: none;
+}
+
+footer .logo {
+  color: #e7e9fc;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+footer p {
+  max-width: 300px;
+  font-size: 14px;  
+}
